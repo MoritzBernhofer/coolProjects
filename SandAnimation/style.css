@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+canvas{
+    display: block;
+}
+#color-wheel{
+    height: 50%;
+    width: 70%;
+}
