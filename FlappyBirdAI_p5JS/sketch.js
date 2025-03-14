@@ -8,7 +8,7 @@ let generation = 0;
 
 function setup() {
     createCanvas(1040, 480);
-    slider = createSlider(1, 10, 1);
+    slider = createSlider(1, 100, 1);
     for (let i = 0; i < TOTAL; i++) {
         birds[i] = new Bird();
     }
