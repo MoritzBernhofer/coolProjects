@@ -1,0 +1,16 @@
+{
+  "name": "particle_simulation_p5js",
+  "version": "1.0.0",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@types/p5": "^1.7.6"
+  }
+}

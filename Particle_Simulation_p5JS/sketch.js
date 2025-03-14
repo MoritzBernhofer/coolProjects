@@ -1,7 +1,7 @@
 /// <reference path="p5/p5.js" />
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(windowWidth, windowHeight);
     let v = createVector(10, 20);
     console.log(v);
 }
