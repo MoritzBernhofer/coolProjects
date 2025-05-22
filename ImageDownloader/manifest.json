@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Image Downloader",
+  "version": "1.0",
+  "description": "Set a subfolder via Ctrl+Shift+M; download image via Ctrl+M",
+  "permissions": [
+    "downloads",
+    "scripting",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Set download subfolder",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "set-folder": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      },
+      "description": "Open subfolder chooser"
+    },
+    "download-image": {
+      "suggested_key": {
+        "default": "Ctrl+M",
+        "mac": "Command+M"
+      },
+      "description": "Download the image into chosen subfolder"
+    }
+  }
+}
